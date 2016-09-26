@@ -1,0 +1,124 @@
+﻿@font-face {
+    font-family: 'Cookie-Regular';
+    src: url('../fonts/Cookie-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlabBold';
+    src: url('../fonts/RobotoSlabBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlabRegular';
+    src: url('../fonts/RobotoSlabRegular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PTSansBold';
+    src: url('../fonts/PTSansBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('../fonts/RobotoMedium.ttf') format('truetype');
+}
+body {
+    font-family: RobotoSlabBold;
+    font-size: 16px;
+    color: #eeeccd;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.banner {
+    width: 100%;
+    max-width: 1920px;
+    z-index: 1;
+    position: absolute;
+}
+
+
+.shop-now {
+    border: 1px solid white;
+    font-family: PTSansBold;
+    z-index: 2;
+    font-size: 1.125em;
+    max-width: 121px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    margin-top: 111px;
+    margin-left: 1267px;
+    height: 100%;
+    max-height: 38px;
+    background-color: transparent;
+}
+
+.shop-now:hover {
+    color: #de4a4a;
+    background-color: #ffffff;
+}
+     
+#banner-scroll .shop-now {
+    margin-top: -72px;
+    margin-left: 1336px;
+}
+
+canvas {
+  position: absolute;
+  background: transparent;
+  margin: 19px 0 0 1190px;
+  z-index: 2;
+}
+
+
+body {
+  display: table-cell;
+}
+
+article {
+    margin-top: 300px;
+    color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Helvetica Neue';
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+header {
+    position:fixed;
+    top:-170px;
+    width:1903px;
+    height:170px;
+    opacity: 1;
+}
+
+#banner-scroll {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#a {
+    position: absolute;
+    background: transparent;
+    margin: -89px 0 0 1080px;
+    z-index: 2;
+}
